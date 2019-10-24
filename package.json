@@ -1,7 +1,6 @@
 {
-  
   "description": "portafolio",
-  "main": "src/index.html",
+  "main": "index.html",
   "scripts": {
     "test": "jest --coverage",
     "eslint": "eslint --ext .js src/ test/",
