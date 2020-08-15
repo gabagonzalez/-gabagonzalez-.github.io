@@ -13,6 +13,9 @@ body {
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
+    .text-intro {
+      color: red;
+    }
     body {
       font-size: 16px; } }
 .cta-select {
@@ -340,11 +343,13 @@ z-index: -1;
         position: relative; }
         @media screen and (max-width: 768px) {
           #hero .flexslider .slider-text > .slider-text-inner {
-            text-align: center; } }
+            
+            text-align: left;
+            color: #ddd; } }
         #hero .flexslider .slider-text > .slider-text-inner h1, #hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: black;
+          
           font-family: "Playfair Display", Georgia, serif; }
         #hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
